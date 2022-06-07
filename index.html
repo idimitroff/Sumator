@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sumator-2000</title>
+</head>
+
+<body>
+    <div id="colorized">
+        <div id="sumator">
+
+            <h3 id="model">SimpleR</h3>
+
+            <p id="showResult"></p>
+
+            <input id="inputFirst" placeholder="First Number">
+
+            <select id="simbol">
+                <option id="chois" value="+">+</option>
+                <option id="chois" value="-">-</option>
+                <option id="chois" value="*">*</option>
+                <option id="chois" value="/">/</option>
+                <option id="chois" value="%">%</option>
+                <option id="chois" value="pow">pow</option>
+
+
+            </select>
+
+            <input id="inputSecond" placeholder="Second Number">
+
+            <div id="btnResult">
+                <button id="btn" onclick="takeSimbol()">Result</button>
+            </div>
+            <div id="clear">
+                <button id="clr" onclick="location.reload()">Clear</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="./sumator.js"></script>
+</body>
+
+</html>

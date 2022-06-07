@@ -1,0 +1,139 @@
+::placeholder {
+  color: rgba(255, 0, 0, 0.51);
+}
+::placeholder:hover {
+  color: black;
+}
+* {
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+#sumator {
+  border: 4px solid rgba(255, 0, 33, 0.789);
+  border-radius: 180px 0px;
+  height: 360px;
+  width: 320px;
+  background-color: black;
+}
+
+#model {
+  padding: 0;
+  margin: 0;
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 220px;
+  color: rgba(255, 0, 0, 0.816);
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#simbol {
+  padding: 0;
+  margin: 0;
+  margin: 5px;
+  margin-left: 135px;
+  width: 80px;
+  height: 40px;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: red;
+  background-color: black;
+  border: 0.1px solid black;
+  text-align: center;
+}
+
+#simbol:hover {
+  background-color: black;
+  color: red;
+}
+
+#colorized {
+  background-color: rgb(108, 5, 39);
+  width: 328px;
+  height: 368px;
+}
+
+#inputFirst {
+  text-decoration: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 190px;
+  margin-top: 40px;
+  margin-left: 60px;
+  background-color: rgb(16, 16, 17);
+  color: red;
+  font-size: 20px;
+  border: 3px solid rgba(147, 21, 21, 0.565);
+}
+#inputFirst:hover {
+  background-color: rgb(22, 21, 21);
+  color: red;
+  border: 3px solid rgb(149, 11, 11);
+}
+
+#inputSecond {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 190px;
+  margin-left: 60px;
+  background-color: rgb(16, 16, 17);
+  color: red;
+  font-size: 20px;
+  border: 3px solid rgba(147, 21, 21, 0.565);
+}
+#inputSecond:hover {
+  background-color: rgb(22, 21, 21);
+  color: red;
+  border: 3px solid rgb(149, 11, 11);
+}
+
+#showResult {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  height: 30px;
+  width: 185px;
+  margin-top: 30px;
+  margin-left: 61px;
+  background-color: rgb(69, 111, 39);
+  color: black;
+  font-size: 20px;
+  border: 3px solid rgba(147, 21, 21, 0.565);
+}
+
+#btn {
+  text-align: center;
+  color: rgb(201, 11, 11);
+  padding: 0;
+  margin: 0;
+  height: 30px;
+  width: 190px;
+  margin-top: 20px;
+  margin-left: 61px;
+  background-color: rgb(16, 16, 17);
+  font-size: 20px;
+  border: 3px solid rgba(172, 10, 10, 0.551);
+}
+
+#btn:hover {
+  background-color: rgb(22, 21, 21);
+  color: red;
+  border: 3px solid rgb(149, 11, 11);
+}
+#clr {
+  text-align: left;
+  color: red;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+  width: 30px;
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color: black;
+  font-size: 10px;
+  border: 2px solid rgba(172, 10, 10, 0.551);
+}
